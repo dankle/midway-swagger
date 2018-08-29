@@ -1,0 +1,19 @@
+{
+ "swaggerOptions": {
+  "host": "http://petstore.swagger.io/v2/swagger.json",
+  "port": "80",
+  "path": "/v2/swagger"
+ },
+ "midwayOptions": {
+  "host": "localhost",
+  "port": "8080",
+  "mockedDirectory": "./mocked-data"
+ },
+ "startMidwayInstance": true,
+ "generateMockdata": true,
+ "generateMockDataOptions": {
+  "mockedDirectory": "./mocked-data"
+ },
+ "storeEndpointsToFile": true,
+ "endpointsFilePath": "."
+}

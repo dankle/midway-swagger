@@ -1,0 +1,56 @@
+{
+  "name": "testarmada-midway-swagger",
+  "version": "1.0.1",
+  "description": "Module for generating testarmada-midway mock routes based on a swagger 2.0 description file.",
+  "main": "index.js",
+  "repository": "add here when releasing",
+  "author": "Himanshu Jain",
+  "scripts": {
+    "test": "eslint . --ext .js && istanbul cover _mocha -- --recursive -t 50000",
+    "swagger-start": "node ./bin/midway-swagger.bin.js --start",
+    "swagger-config": "node ./bin/midway-swagger.bin.js --config",
+    "swagger-help": "node ./bin/midway-swagger.bin.js --help",
+    "lint": "eslint . --ext .js"
+  },
+  "bin": {
+    "midway-swagger": "./bin/midway-swagger.bin.js"
+  },
+  "keywords": [
+    "mocking",
+    "swagger",
+    "midway"
+  ],
+  "dependencies": {
+    "testarmada-midway": "1.0.1",
+    "testarmada-midway-logger": "1.0.1",
+    "testarmada-midway-util": "1.0.1",
+    "inquirer": "^1.0.2",
+    "stringbuilder": "0.0.11",
+    "swaggerize-routes": "1.0.10",
+    "swagmock": "0.0.5",
+    "yargs": "^6.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^1.10.3",
+    "eslint-config-defaults": "^8.0.1",
+    "eslint-plugin-filenames": "^0.2.0",
+    "mocha": "^2.4.5",
+    "istanbul": "1.1.0-alpha.1"
+  },
+  "contributors": [
+    {
+      "name": "Himanshu Jain",
+      "url": "http://github.com/hjain60"
+    },
+    {
+      "name": "Pranav Parikh",
+      "url": "http://github.com/pranavparikh"
+    },
+    {
+      "name": "Daniel Kleveros",
+      "url": "http://github.com/dankle"
+    }
+  ],
+  "license": "MIT"
+}

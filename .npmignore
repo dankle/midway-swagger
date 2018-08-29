@@ -1,0 +1,7 @@
+.idea/
+.git/
+.gitignore
+.npmrc
+node_modules/
+test/
+Gruntfile.js
