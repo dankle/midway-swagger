@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Module for generating testarmada-midway mock routes based on a swagger 2.0 description file.",
   "main": "index.js",
-  "repository": "add here when releasing",
+  "repository": "https://github.com/TestArmada/midway-swagger",
   "author": "Himanshu Jain",
   "scripts": {
     "test": "eslint . --ext .js && istanbul cover _mocha -- --recursive -t 50000",
