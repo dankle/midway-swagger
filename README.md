@@ -5,7 +5,7 @@ Module for generating midway mock routes(endpoints.js) with random data based on
 ## Installation
 
 ```shell
-$ npm install -g midway-swagger
+$ npm install -g testarmada-midway-swagger
 ```
 
 
